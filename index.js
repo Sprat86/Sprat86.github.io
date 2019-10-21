@@ -9,8 +9,8 @@ let body = document.querySelector('body');
 let ENTER_KEYCODE = 13;
 
 
-let URL = "http://edu.nd.ru/tests/test1.json";
-// let URL = "./test1.json";
+//let URL = "http://edu.nd.ru/tests/test1.json";
+let URL = "./test1.json";
 
 
 let arrayForFilter = [];
