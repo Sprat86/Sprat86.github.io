@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
 /** НАВЕШИВАЕМ ОБРАБОТЧИКИ СОБЫТИЙ НА КНОПКИ*/
 
 /** Функция колбэк для поиска данных*/
-let searchNumberFlight = function () {   
+let searchString = function () {   
     let filterArray = []; 
     
     filterArray = arrayForFilter.filter(function (item) {       
@@ -174,11 +174,11 @@ let searchNumberFlight = function () {
 /** Обработчик события на нажатие кнопки Enter, когда поле ввода поиска активно*/
 input__search.addEventListener("keydown", function (evt) {
     if (evt.keyCode === ENTER_KEYCODE) {
-        searchNumberFlight();
+        searchString();
     }
 });
 
-button__search.addEventListener('click', searchNumberFlight);
+button__search.addEventListener('click', searchString);
 
 
 /** Создание окна "ошибки загрузки" данных с сервера:*/
