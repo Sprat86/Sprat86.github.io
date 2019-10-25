@@ -30,7 +30,9 @@ code {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    /*text-align: center;
+    width: auto;*/
     margin: 40px 30px;
 }
 
@@ -106,7 +108,7 @@ div {
     text-align: center;
     border-collapse: collapse;
     border-radius: 10px;
-    box-shadow: 0 0 0 10px #fdff5b;
+    box-shadow: 0 0 0 10px #f0f197;
     color: #452F21;
     background: #fdff5b;
 }
@@ -118,13 +120,13 @@ div {
     font-size: 16px;
     font-weight: bold;
     padding: 10px 8px;
-    background: #fdff5b;
+    background: #f0f197;
 }
 
 
 .table__row {
     display: table-row;
-    border-bottom: 5px solid  #fdff5b;
+    border-bottom: 5px solid  #f0f197;
 }
 
 
