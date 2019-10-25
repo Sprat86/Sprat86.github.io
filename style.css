@@ -55,7 +55,7 @@ code {
     padding: 10px 30px;
     margin: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 40px 40px #309d06bd inset, 0 0 0 0 #309d06bd;
+    box-shadow: 0 0 40px 40px #3ba776 inset, 0 0 0 0 #3ba776;
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
     letter-spacing: 2px;
@@ -64,13 +64,13 @@ code {
 }
 
 .wrapper__input button:hover {
-    box-shadow: 0 0 10px 0 #6ab1d7 inset, 0 0 10px 4px #6ab1d7;
-    color: #6ab1d7;
+    box-shadow: 0 0 10px 0 #6ab1d7 inset, 0 0 10px 4px #3ba776;
+    color: #3ba776;
 }
 
 
 .wrapper__input {
-    background: #4b2dea;
+    background: #35495e;
     border-radius: 10px;
     text-align: left;
     margin: 20px 0;
